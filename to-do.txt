@@ -1,0 +1,63 @@
+https://github.com/kaenova/basic-api
+
+Topics : 
+
+- Pengenalan dan Pembuatan API pada https
+- Studi kasus management People
+- Mengamankan API
+- Dokumentasi API
+
+-----------
+API - Application Programming Interface
+    Adalah istilah dimana kita dapat menggunakan suatu aplikasi yang diprogram
+
+HTTP - Hypertext Transfer Protocol (HTTP)
+    Adalah protokol yang yang digunakan untuk melakukan transfer data hanya dengan menggunakan text (Hypertext)
+
+-----------
+GRPC 
+Microservice 
+-----------
+
+API - HTTP 
+
+END POINT =====> https://apiurl.com/review/new
+HTTP METHOD =====> POST 
+HTTP HEADER =====> content-type : application/json
+                   accept : application/json 
+                   authorization : anomaly
+Body {
+    review = {
+        "title" : "Great Article",
+        "description" : "So easy to follow",
+        "rating" : 5
+    }
+}
+
+-----------
+EndPoint 
+    Berawalan dengan / 
+    /review/new 
+
+Method 
+    GET ==> Untuk mengambil data 
+    POST ==> Untuk mengirim data 
+    PATCH ==> Untuk mengubah suatu data 
+    DELETE ==> Untuk remove data
+
+Body 
+    Text
+    json
+    html 
+
+POST http://kerjago.id/users/new 
+    method: POST , EndPoint: /users/new
+
+GET https://bangkit.academy/
+    method: GET , EndPoint: /
+
+PATCH localhost:3000/newUser
+    method: PATCH , EndPoint: /newUser
+
+DELETE localhost:3000/user/30
+    method: DELETE  , EndPoint: /user/30

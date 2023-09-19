@@ -1,0 +1,19 @@
+[
+    {
+        "id" : "101",
+        "nama" : "Nizar Fadilah",
+        "phone-number" : "083132312082"
+    },
+
+    {
+        "id" : "102",
+        "nama" : "Dyan",
+        "phone-number" : "081323290120"
+    },
+
+    {
+        "id" : "103",
+        "nama" : "Ryan",
+        "phone-number" : "0838199203230"
+    }
+]
